@@ -40,9 +40,9 @@ let con_to_boolean = Boolean(loggedIn)
 console.log(typeof con_to_boolean);
 console.log(con_to_boolean);
 
-1 or greater than 1 = true , 0=false
-""= false , "anything in between" = true
-null , undefined = false
+// 1 or greater than 1 = true , 0=false
+// ""= false , "anything in between" = true
+// null , undefined = false
 
 let str = undefined
 let con_str = String(str)
@@ -84,17 +84,17 @@ console.log(+""); // output: 0
 console.log(+null); // output: 0
 console.log(+undefined); // output: NaN
 
-let num1 , num2 , num3 = 23
-console.log(num1 , num2 , num3) // output: undefined undefined 23
-let num1 , num2 , num3;
-num1 = num2 = num3 = 23
-console.log(num1 , num2 , num3) // output: 23 23 23
+// let num1 , num2 , num3 = 23
+// console.log(num1 , num2 , num3) // output: undefined undefined 23
+// let num1 , num2 , num3;
+// num1 = num2 = num3 = 23
+// console.log(num1 , num2 , num3) // output: 23 23 23
 
-Preincrment and Postincrement
+// Preincrment and Postincrement
 
-let num1 = 5
-let num2 = 5
+// let num1 = 5
+// let num2 = 5
 
-console.log(num1++); // output: 5
-console.log(++num2); // output: 6
+// console.log(num1++); // output: 5
+// console.log(++num2); // output: 6
 
