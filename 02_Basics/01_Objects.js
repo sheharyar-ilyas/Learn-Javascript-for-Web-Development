@@ -31,7 +31,7 @@ const users = {
 // users["email"] = "sheharyar@gemini.com"
 // console.log(users["email"]) 
 
-// we can also freeze the object mean not to change the value , it does not mean it give an error when we ovvewrite , but it does not change
+// we can also freeze the object mean not to change the value , it does not mean it give an error when we ovvewrite , but it does not effect the value
 
 // Object.freeze(users)
 
