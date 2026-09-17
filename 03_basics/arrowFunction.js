@@ -27,3 +27,24 @@ const chai = () =>
 }
 
 chai()
+
+
+// const number = (num1, num2) => {
+//         return num1 + num2
+// }
+
+// console.log(number(10, 20))  // we get the result 30
+
+// const number = (num1, num2) => num1 + num2
+// const number = (num1, num2) => (num1 + num2)   // if we write in curly braces then we have to write return keyword otherwise we get undefined but in this case we not write return keyword and we get the result because we use paranthesis instead of curly braces
+
+
+// If we return object then  we have to use paranthesis 
+
+const number = (num1, num2) => (
+    {
+        username: "sheharyar", age: 20, sum: num1 + num2
+    }
+)
+
+console.log(number(10, 20))
